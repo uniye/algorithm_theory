@@ -92,8 +92,33 @@ int main(void) {
   - 페어: 한쌍의 데이터를 처리
   - 변수가 3개일때 두개의 변수를 기준으로 정렬하는 방법
 
-#학생을 나타낼 수 있는 정보가 이름, 성적, 생년월일일 때 학생을 성적 순으로 나열, 다만성적이 동일한 경우 나이가 더 어린 학생이 더 우선순위가 높다.
+<학생을 나타낼 수 있는 정보가 이름, 성적, 생년월일일 때 학생을 성적 순으로 나열, 다만성적이 동일한 경우 나이가 더 어린 학생이 더 우선순위가 높다.>
 ```
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+bool compare(pair<string, pair<int, int>>a, pair<string, pair<int, int>>b) {
+	if (a.second.first == b.second.first) { //성적이 같으면 학번비교
+		return a.second.second > b.second.second;
+	}
+	else {
+		return a.second.first > b.second.first;
+	}
+}
+int main(void) {
+	vector<pair<string,pair<int, int>>>v; //이중 페어
+	v.push_back(pair<string, pair<int, int>>("이힛",pair<int,int>(90,202025520))); //pair<first,second>
+	v.push_back(pair<string, pair<int, int>>("오르라민c", pair<int, int>(80, 202025510)));
+	v.push_back(pair<string, pair<int, int>>("밥부", pair<int, int>(92, 202025530)));
+	v.push_back(pair<string, pair<int, int>>("배고파", pair<int, int>(85, 202025545)));
+	v.push_back(pair < string, pair<int, int>>("아핫", pair<int, int>(92, 202025512)));
 
+	sort(v.begin(), v.end(),compare);
+	for (int i = 0; i < v.size(); i++) {
+		cout << v[i].first << ' '; //이름 출력
+	}
+	return 0;
+}
 ```
 
