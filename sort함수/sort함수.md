@@ -1,6 +1,6 @@
 - 정렬은 이미 컴퓨터 공학의 오래된 연구 분야로, 이미 아주 훌륭한 정렬 관련 라이브러리가 존재
 - 기본 사용 방법
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -11,7 +11,7 @@ int main(){
 }
 ```
 - sort()함수가 강력한 이유: 정렬할 기준을 개발자 마음대로 정할 수 있다.
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -32,7 +32,7 @@ int main() {
   - 실무에서는 객체로 정리되어 내부적으로 여러 개의 변수를 포함.
   - 단순 데이터정렬 기법은 실무에서 사용하기에 적합하지 않다.
   - 특정한 변수를 기준으로 정렬하는 것이 가장 중요하다.
-```
+```cpp
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -67,7 +67,7 @@ int main() {
 ```
 - 프로그래밍 대회
   - 빠른 개발 필요 => 페어(pair)라이브러리를 사용
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -93,7 +93,7 @@ int main(void) {
   - 변수가 3개일때 두개의 변수를 기준으로 정렬하는 방법
 
 <학생을 나타낼 수 있는 정보가 이름, 성적, 생년월일일 때 학생을 성적 순으로 나열, 다만성적이 동일한 경우 나이가 더 어린 학생이 더 우선순위가 높다.>
-```
+```cpp
 #include <iostream>
 #include <vector>
 #include <algorithm>
