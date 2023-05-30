@@ -72,4 +72,4 @@ int main() {
 - dfs자체로는 큰 의미가 없다. 작동 원리에 대해서 빠삭하게 이해해야 함.
 
 - [공부영상](https://www.youtube.com/watch?v=l0Rsu7dziws&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=17)
-- [dfs bfs 차이점과 언제 사용하는지]()
+- [dfs bfs 차이점과 언제 사용하는지](https://github.com/uniye/algorithm_theory/blob/main/BFS_DFS/BFS%20vs%20DFS%20.md)
