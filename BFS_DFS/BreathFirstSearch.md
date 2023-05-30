@@ -85,5 +85,5 @@ int main() {
 - 특성이 중요한 것이고, 다른 알고리즘에 적용한다는 것이 핵심
 - 그 자체로는 큰 의미가 없음
 
-- 공부영상: https://www.youtube.com/watch?v=66ZKz-FktXo&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=16
-- dfs bfs 차이점과 언제 사용하는지: 
+[공부영상](https://www.youtube.com/watch?v=66ZKz-FktXo&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=16)
+[dfs bfs 차이점과 언제 사용하는지]()
