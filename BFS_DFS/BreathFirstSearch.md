@@ -87,4 +87,4 @@ int main() {
 - 그 자체로는 큰 의미가 없음
 
 - [공부영상](https://www.youtube.com/watch?v=66ZKz-FktXo&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=16)
-- [dfs bfs 차이점과 언제 사용하는지]()
+- [dfs bfs 차이점과 언제 사용하는지](https://github.com/uniye/algorithm_theory/blob/main/BFS_DFS/BFS%20vs%20DFS%20.md)
