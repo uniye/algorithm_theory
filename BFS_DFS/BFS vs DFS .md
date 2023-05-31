@@ -2,7 +2,7 @@
 [그림출처](https://iancoding.tistory.com/329)
 
 ## 차이점
-- DFS(깊이 우선 탐색)
+- [DFS(깊이 우선 탐색)](https://github.com/uniye/algorithm_theory/blob/main/BFS_DFS/DepthFisrtSearch.md)
   - 모든 노드를 방문하고자 할 때
   - 구현 난이도: 상대적 쉬움
   - 검색 속도: 상대적 느림
@@ -10,7 +10,7 @@
   - queue를 사용
   - 경로의 특징을 가질 수 있음
 
-- BFS(너비 우선 탐색)
+- [BFS(너비 우선 탐색)](https://github.com/uniye/algorithm_theory/blob/main/BFS_DFS/BreathFirstSearch.md)
   - 최단 경로를 찾고 싶을 때
   - 구현 난이도: 상대적 어려움
   - 검색 속도: 상대적 빠름
