@@ -28,3 +28,4 @@
 - 최단거리: BFS
 - 크기가 큰 그래프: DFS
 - 규모 크지 않고 원하는 대상이 별로 안 먼 그래프: BFS
+- [참고링크](https://stackoverflow.com/questions/3332947/what-are-the-practical-factors-to-consider-when-choosing-between-depth-first-sea)
