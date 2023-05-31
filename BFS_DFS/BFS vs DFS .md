@@ -1,4 +1,5 @@
 ![DFS_BFS](https://github.com/uniye/algorithm_theory/assets/92070609/61075627-0aa1-4a4f-8370-763547b9686f)
+[그림출처](https://iancoding.tistory.com/329)
 
 ## 차이점
 - DFS(깊이 우선 탐색)
