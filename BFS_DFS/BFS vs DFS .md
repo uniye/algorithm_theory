@@ -7,7 +7,7 @@
   - 구현 난이도: 상대적 쉬움
   - 검색 속도: 상대적 느림
   - ex) 모든 친구관계를 다 살펴볼때
-  - queue를 사용
+  - stack, recursive function을 사용
   - 경로의 특징을 가질 수 있음
 
 - [BFS(너비 우선 탐색)](https://github.com/uniye/algorithm_theory/blob/main/BFS_DFS/BreathFirstSearch.md)
@@ -15,7 +15,7 @@
   - 구현 난이도: 상대적 어려움
   - 검색 속도: 상대적 빠름
   - ex) 자신과 가까운 관계부터 탐색
-  - stack, recursive function을 사용
+  - queue를 사용
   - 경로의 특징을 가질 수 없음
 
 ## 시간복잡도
